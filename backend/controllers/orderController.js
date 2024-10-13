@@ -10,7 +10,7 @@ const deliveryCharge = 199
 
 
 // //Gateway Initialization
-// const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 // const razorpayInstance = new razorpay({
 //     key_id: process.env.RAZORPAY_ID_KEY,
 //     key_secret: process.env.STRIPE_SECRET_KEY,
